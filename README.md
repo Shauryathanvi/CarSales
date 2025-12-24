@@ -27,10 +27,6 @@ Most screens prompt you to press Enter to continue before returning to the menu.
 - **sales.txt** – Binary file that stores serialized `Customer` records. It is created automatically after the first successful sale.
 
 ## Notes
-
-- The program uses simple bubble-sort logic to keep the car list ordered by year.
-- Discounts are calculated as the buyer's age percentage (e.g., age 20 → 20% off) for ages between 18 and 25.
-- Feedback collection occurs only after a valid purchase; if a buyer is under the minimum age, the transaction is blocked and no feedback is requested.
 - The program uses simple bubble-sort logic to keep the car list ordered by year.
 - Discounts are calculated as the buyer's age percentage (e.g., age 20 → 20% off) for ages between 18 and 25.
 - Feedback collection occurs only after a valid purchase; if a buyer is under the minimum age, the transaction is blocked and no feedback is requested.
